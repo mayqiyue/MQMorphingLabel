@@ -5,11 +5,16 @@
 [![License](https://img.shields.io/cocoapods/l/MQMorphingLabel.svg?style=flat)](http://cocoapods.org/pods/MQMorphingLabel)
 [![Platform](https://img.shields.io/cocoapods/p/MQMorphingLabel.svg?style=flat)](http://cocoapods.org/pods/MQMorphingLabel)
 
+## Purpose
+I like to realize UI effects when I am free.
+### And her is the effect.
+
+![](./demo.gif)
+
 ## Example
+You can clone or download the example to have fun with it.
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+To run the example project, clone the repo, and run pod install from the Example directory first.
 
 ## Installation
 
@@ -20,9 +25,23 @@ it, simply add the following line to your Podfile:
 pod 'MQMorphingLabel'
 ```
 
+## Usage
+
+The API is very easy to use:
+
+    - (void)playFromProgress:(CGFloat)fromProgress
+                  toProgress:(CGFloat)toProgress
+              withCompletion:(nullable MQMAnimationCompletionBlock)completion;
+
+    - (void)playWithCompletion:(nullable MQMAnimationCompletionBlock)completion;
+
+    - (void)play;
+
+    - (void)stop;
+
 ## Author
 
-mayqiyue, mayqiyue@qq.com
+mayqiyue, xu20121013@gmail.com
 
 ## License
 
