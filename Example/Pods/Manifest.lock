@@ -1,0 +1,16 @@
+PODS:
+  - MQMorphingLabel (0.1.0)
+
+DEPENDENCIES:
+  - MQMorphingLabel (from `../`)
+
+EXTERNAL SOURCES:
+  MQMorphingLabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MQMorphingLabel: 757c0377c8b03fc0f04c09399a12665d6ec28548
+
+PODFILE CHECKSUM: ba92ca311f6258476d345f23fba12dabd4db762e
+
+COCOAPODS: 1.4.0

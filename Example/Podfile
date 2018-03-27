@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MQMorphingLabel_Example' do
+  pod 'MQMorphingLabel', :path => '../'
+
+  target 'MQMorphingLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

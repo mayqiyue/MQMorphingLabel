@@ -1,0 +1,6 @@
+framework module MQMorphingLabel {
+  umbrella header "MQMorphingLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}
